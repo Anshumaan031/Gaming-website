@@ -1,0 +1,122 @@
+/* CSS reset */
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Tamma 2', cursive;
+    /* height: 4544px; */
+}
+#myVideo{
+    position: fixed;
+    z-index: -1;                 /*to put the video at the background behind any text */
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 22px;
+}
+.left img{
+    width: 117px;
+    margin: 2px;
+    /* filter: invert(100%);   this is for the case when we have the change the img for black to white or vice versa */
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    /* border: 2px solid rgb(65, 196, 47); */
+    background-color: rgb(42, 84, 173, 0.5);
+    display: block;
+    width: 52%;
+    margin: 22px auto;                              /*to bring this element to the center of the screen*/
+    border-radius: 65px;
+    position: sticky;
+    top: 22px;
+    /* position: fixed;
+    left: 405px; */
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 22px;
+    /* border: 2px solid rgb(33, 132, 189); */
+    display: inline-block;
+    box-sizing: border-box;
+}
+.btn{
+    margin: 9px;
+    padding: 10px 19px;
+    color: white;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(168, 62, 163);
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;                   /*to remove the underlines for the links*/
+    padding: 34px 60px;
+}
+
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color: grey;
+}
+.container{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(22, 24, 102, 0.3);
+    display: inline-block;
+    margin: 174px 118px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 30px;
+}
+.container h2 {
+    text-align: center;
+}
+.form-group input{
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+.container2 li{
+    list-style: none;
+}
+.box{
+    /* border: 2px solid black; */
+    display: block; 
+    float: left;
+    width: 48%;
+}
+/* .container2 li a:hover{
+    visibility: visible;
+    opacity: 1;
+} */
